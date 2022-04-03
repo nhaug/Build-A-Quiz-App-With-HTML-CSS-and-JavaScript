@@ -1,3 +1,4 @@
+/* Choices */
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -25,6 +26,8 @@
   width: 100%;
 }
 
+/* Choice is Correct? */
+
 .correct {
   background-color: #28a745;
 }
@@ -47,4 +50,18 @@
 
 .hud-main-text {
   text-align: center;
+}
+
+/* ProgressBar */
+.progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #56a5eb;
+  margin-top: 1.5rem;
+}
+
+.progressBarFull {
+  height: 3.4rem;
+  background-color: #56a5eb ;
+  width: 0%;
 }
